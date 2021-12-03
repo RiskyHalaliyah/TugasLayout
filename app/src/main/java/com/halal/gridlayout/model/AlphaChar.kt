@@ -1,4 +1,4 @@
-package com.imam.gridlayout.model
+package com.halal.gridlayout.model
 
 class AlphaChar {
     var iconsChar: Int? = 0

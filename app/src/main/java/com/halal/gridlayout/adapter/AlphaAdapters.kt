@@ -1,4 +1,4 @@
-package com.imam.gridlayout.adapter
+package com.halal.gridlayout.adapter
 
 import android.content.Context
 import android.view.LayoutInflater
@@ -7,10 +7,9 @@ import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
 import android.widget.Toast
-import androidx.appcompat.view.menu.ActionMenuItemView
 import androidx.recyclerview.widget.RecyclerView
-import com.imam.gridlayout.R
-import com.imam.gridlayout.model.AlphaChar
+import com.halal.gridlayout.R
+import com.halal.gridlayout.model.AlphaChar
 
 class AlphaAdapters(var context: Context, var arrayList: ArrayList<AlphaChar>):
     RecyclerView.Adapter<AlphaAdapters.ItemHolder>() {

@@ -1,12 +1,12 @@
-package com.imam.gridlayout
+package com.halal.gridlayout
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.imam.gridlayout.adapter.AlphaAdapters
-import com.imam.gridlayout.model.AlphaChar
+import com.halal.gridlayout.adapter.AlphaAdapters
+import com.halal.gridlayout.model.AlphaChar
 
 class MainActivity : AppCompatActivity() {
     private var recyclerView:RecyclerView?=null
@@ -34,9 +34,6 @@ class MainActivity : AppCompatActivity() {
         items.add(AlphaChar(R.drawable.gambyong,"Tari Gambyong"))
         items.add(AlphaChar(R.drawable.giring,"Tari Giring"))
         items.add(AlphaChar(R.drawable.jaipong,"Tari Jaipong"))
-        items.add(AlphaChar(R.drawable.kecak,"Tari Kecak"))
-        items.add(AlphaChar(R.drawable.kipas,"Tari Kipas"))
-
         return items
     }
  }

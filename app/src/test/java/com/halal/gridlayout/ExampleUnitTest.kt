@@ -1,4 +1,4 @@
-package com.imam.gridlayout
+package com.halal.gridlayout
 
 import org.junit.Test
 
